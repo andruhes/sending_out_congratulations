@@ -1,0 +1,12 @@
+Меняем размещение папкой с файлами, которые рассылаем: Пункт 23
+C:/PY/rassilka2/pythonProject/dir/
+
+
+Меняем размещение папкой с файлами, которые рассылаем: Пункт 26
+C:/PY/rassilka2/pythonProject/xls/1.xlsx
+
+
+
+Также устанавливаем плагины:
+pip install pandas
+pip install openpyxl
