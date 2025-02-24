@@ -1,5 +1,5 @@
 # sending_out_congratulations
-Sending congratulations + files from an excel file: 1. email; 2. name of file
+Sending congratulations + files from an excel file
 ---------------------
 Программа на Python из отдела айти делает рассылку поздравлений текста + файлов. Из файла ексель в котором 2 колонки: эл.почта | файл.расширение
 ---------------------
