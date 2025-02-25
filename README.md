@@ -25,7 +25,7 @@ def is_valid_email(email):
   
   
 # Конфигурация SMTP сервера  
-smtp_server = '172.25.10.5'  
+smtp_server = '192.168.10.5'  
 smtp_port = 25  # Обычно порт 25 для SMTP  
   
 # Путь к директории с файлами  
@@ -39,7 +39,7 @@ df = pd.read_excel('C:/PY/rassilka2/pythonProject/xls/1.xlsx', header=None)
 def send_email(to_email, attachment_filename):  
     # Создание сообщения  
     msg = MIMEMultipart()  
-    msg['From'] = 'celebration@metrium.ru'  # Укажите ваш email  
+    msg['From'] = 'celebration@andruhes.ru'  # Укажите ваш email  
     msg['To'] = to_email  
     msg['Subject'] = 'С 23 февраля!'  
   
@@ -151,10 +151,10 @@ def is_valid_email(email):
   
 # Конфигурация SMTP сервера  
   
-smtp_server = '172.25.10.5'  
+smtp_server = '192.168.10.5'  
 smtp_port = 25  # Обычно порт 25 для SMTP  
   
-1. smtp_server = '172.25.10.5': Указывает IP-адрес SMTP сервера, который будет использоваться для отправки писем.  
+1. smtp_server = '192.168.10.5': Указывает IP-адрес SMTP сервера, который будет использоваться для отправки писем.  
 1. smtp_port = 25: Указывает порт, используемый для подключения к SMTP серверу. Порт 25 обычно используется для SMTP.  
   
   
@@ -186,12 +186,12 @@ def send_email(to_email, attachment_filename):
 # Создание сообщения  
   
     msg = MIMEMultipart()  
-    msg['From'] = 'celebration@metrium.ru'  # Укажите ваш email  
+    msg['From'] = 'celebration@andruhes.ru'  # Укажите ваш email  
     msg['To'] = to_email  
     msg['Subject'] = 'С 23 февраля!'  
   
 1. msg = MIMEMultipart(): Создает объект msg типа MIMEMultipart, который будет использоваться для формирования многочастного сообщения (с текстом и вложениями).  
-1. msg['From'] = 'celebration@metrium.ru': Устанавливает адрес отправителя в заголовке сообщения. Здесь указан email отправителя.  
+1. msg['From'] = 'celebration@andruhes.ru': Устанавливает адрес отправителя в заголовке сообщения. Здесь указан email отправителя.  
 1. msg['To'] = to_email: Устанавливает адрес получателя в заголовке сообщения, используя переданный аргумент to_email.  
 1. msg['Subject'] = 'С 23 февраля!': Устанавливает тему письма в заголовке сообщения.  
   
